@@ -7,7 +7,7 @@ penjelasan alur logika :
   baris  1 : Mendefinisikan fungsi, agar bisa di panggil berulang saat menampilkan kepada user  
   baris 2 : Mencetak teks "1. Tambah Barang Baru" ke layar  
   baris 3 : Mencetak teks "2. Cek Semua Barang" ke layar.
-baris 4 : Mencetak teks "3. Hapus Barang" ke layar.
+baris 4 : Mencetak teks "3. Hapus Barang" ke layar.  
 baris 5 : Mencetak teks "4. Keluar" ke layar.
 baris 7 : Mendefinisikan fungsi utama 
 baris 8 : Membuat list kosong dengan nama variabel "inventaris", Address memory dibuat.
