@@ -60,4 +60,4 @@ Kemudian, saat memilih Menu 2, program menelusuri seluruh isi list untuk menampi
 
 Terakhir, pengguna memilih Menu 4 untuk keluar. Program menampilkan ucapan terima kasih dan mengubah variabel kontrol menjadi False, sehingga proses eksekusi di terminal berhenti.  
 
-Link Youtube : 
+Link Youtube : https://youtu.be/68LbZYQbMtU
