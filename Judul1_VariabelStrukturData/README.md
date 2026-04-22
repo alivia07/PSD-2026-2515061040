@@ -3,7 +3,7 @@ Deskripsi : program ini merupakan sistem manajemen inventaris barang kos. progra
 
 <img width="1920" height="2160" alt="Sources Code_Tugas Akhir" src="https://github.com/user-attachments/assets/1990c07e-4441-4b19-ad95-ed0741f97edb" />
 
-penjelasan alur logika :
+penjelasan alur logika :  
   baris  1 : Mendefinisikan fungsi, agar bisa di panggil berulang saat menampilkan kepada user  
   baris 2 : Mencetak teks "1. Tambah Barang Baru" ke layar  
   baris 3 : Mencetak teks "2. Cek Semua Barang" ke layar.
