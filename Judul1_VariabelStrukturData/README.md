@@ -1,2 +1,3 @@
 # sistem manajemen inventaris barang kos
 Deskripsi : program ini merupakan sistem manajemen inventaris barang kos. program ini dibuat untuk mengelola barang barang pada kos agar tidak berantakan. Fitur utama pada pgrogram ini yaitu bisa input barang baru, nampilin list barang sesuai urutan, hingga hapus barang jika sudah tidak di perlukan lagi. program ini efisien untuk data yang tidak terlalu banyak karena proses nambah datanya cepat (O(1)) dan tampilan mudah di mengerti oleh siapa saja yang menggunakan.
+<img width="1920" height="2160" alt="Sources Code_Tugas Akhir" src="https://github.com/user-attachments/assets/1990c07e-4441-4b19-ad95-ed0741f97edb" />
