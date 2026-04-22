@@ -50,3 +50,5 @@ penjelasan alur logika :
   baris 52 : Program Mencetak pesan error input  
   baris 54 : program mengecek apakah file dijalankan langsung   
   baris 55 : memanggil fungsi main dan program mulai berjalan  
+
+<img width="1920" height="2160" alt="_9258_Screenshot 4__3556_Screenshot 5" src="https://github.com/user-attachments/assets/cc81f9f1-2d1b-470e-a08b-8aa37754e1a7" />
