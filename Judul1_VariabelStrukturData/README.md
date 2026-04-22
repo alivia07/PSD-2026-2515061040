@@ -52,3 +52,12 @@ penjelasan alur logika :
   baris 55 : memanggil fungsi main dan program mulai berjalan  
 
 <img width="1920" height="2160" alt="_9258_Screenshot 4__3556_Screenshot 5" src="https://github.com/user-attachments/assets/cc81f9f1-2d1b-470e-a08b-8aa37754e1a7" />
+
+Penjelasan output :  
+  Program dimulai dengan pengisian data melalui Menu 1. Pengguna memasukkan empat nama barang: sabun, shampoo, facewash, dan sunscreen satu per satu. Setiap nama langsung disimpan ke dalam list satu dimensi menggunakan fungsi append(), sehingga data tersusun berurutan sesuai waktu input.
+
+Kemudian, saat memilih Menu 2, program menelusuri seluruh isi list untuk menampilkan daftar inventaris beserta nomor urutnya. Selanjutnya, fitur hapus diuji melalui Menu 3 dengan menghapus barang "shampoo". Program mencari data tersebut, menghapusnya, lalu merapikan indeks list. Saat dicek ulang lewat Menu 2, hanya tersisa tiga barang dengan urutan yang tetap terjaga.
+
+Terakhir, pengguna memilih Menu 4 untuk keluar. Program menampilkan ucapan terima kasih dan mengubah variabel kontrol menjadi False, sehingga proses eksekusi di terminal berhenti.  
+
+Link Youtube : 
