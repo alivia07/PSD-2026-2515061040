@@ -1,1 +1,2 @@
-
+# Sistem Antrian Ticket Konser
+Deskripsi singkat : Sistem ini dirancang sebagai solusi digital untuk mengelola ketidakteraturan urutan penonton pada saat proses penukaran tiket konser. Masalah utama yang diselesaikan adalah efisiensi pemanggilan antrean, di mana penonton seringkali datang secara acak, namun petugas memerlukan urutan yang rapi berdasarkan nomor tiket untuk mempercepat proses verifikasi data.
