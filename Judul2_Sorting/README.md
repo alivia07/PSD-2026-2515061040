@@ -42,3 +42,7 @@ Deskripsi : Sistem ini dirancang sebagai solusi digital untuk mengelola ketidakt
   baris 38 :  
   baris 39 : Memastikan fungsi main() hanya dijalankan jika file ini dieksekusi secara langsung.  
   baris 40 : Memanggil fungsi utama untuk memulai seluruh proses.  
+
+<img width="1920" height="1080" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/9669cd98-d58c-4018-a81d-99853efa01d0" />
+
+link Youtube : 
