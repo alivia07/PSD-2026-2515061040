@@ -44,5 +44,7 @@ Deskripsi : Sistem ini dirancang sebagai solusi digital untuk mengelola ketidakt
   baris 40 : Memanggil fungsi utama untuk memulai seluruh proses.  
 
 <img width="1920" height="1080" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/9669cd98-d58c-4018-a81d-99853efa01d0" />
+Penjelasan output : program menampilkan kondisi antrean sebelum diurutkan dalam format list of dictionaries, di mana data tersebut masih tersusun secara acak dengan urutan nama Cathrine (tiket 7), Justin (tiket 9), Abel (tiket 6), Lana (tiket 4), dan Drake (tiket 8). Program ini kemudian menjalankan fungsi pengurutan (sorting) untuk merapikan data berdasarkan nilai angka pada kunci "nomor".
+Hasil akhir yang ditampilkan di bawahnya menunjukkan bahwa program berhasil menyusun data secara ascending atau dari nilai terkecil ke terbesar. Urutan yang tadinya berantakan kini telah tertata rapi mulai dari Lana dengan nomor tiket 4, diikuti oleh Abel (6), Cathrine (7), Drake (8), dan diakhiri oleh Justin dengan nomor tiket 9. Tampilan ini memberikan informasi yang lebih mudah dibaca.
 
   link Youtube : https://youtu.be/vjKdtD5h5vY  
