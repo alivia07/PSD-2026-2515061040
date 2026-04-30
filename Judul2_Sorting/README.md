@@ -45,4 +45,4 @@ Deskripsi : Sistem ini dirancang sebagai solusi digital untuk mengelola ketidakt
 
 <img width="1920" height="1080" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/9669cd98-d58c-4018-a81d-99853efa01d0" />
 
-link Youtube : 
+  link Youtube : https://youtu.be/vjKdtD5h5vY  
