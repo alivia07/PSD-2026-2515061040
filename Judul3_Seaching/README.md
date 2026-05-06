@@ -1,1 +1,3 @@
-
+ # Sistem Pengecekan Absensi Siswa
+ Deskripsi : Sistem ini dirancang untuk melakukan pendataan dan evaluasi tingkat kehadiran mahasiswa menggunakan algoritma Sequential Search. Sistem bekerja dengan cara menghitung frekuensi kemunculan ID mahasiswa tertentu di dalam catatan kehadiran, kemudian mengkategorikan tingkat kehadirannya berdasarkan jumlah kemunculan tersebut. dimana jika ID mahasiswa muncul sebanyak lebih dari 4 kali maka akan di nyatakan "selalu hadir", jika ID mahasiswa muncul kurang dari 4 kali maka akan di nyatakan "jarang hadir"
+<img width="1920" height="2160" alt="_3479_Screenshot 16__7525_Screenshot 17" src="https://github.com/user-attachments/assets/04262cb9-00a6-43cf-b348-8b2ec93bd7f8" />
