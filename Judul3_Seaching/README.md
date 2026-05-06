@@ -32,3 +32,5 @@
   Baris 33 : memastikan fungsi main() berjalan jika file di eksekusi langsung  
   Baris 34 : memanggil fungsi utama untuk memulai seluruh proses  
   <img width="1920" height="1080" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/45479a48-a743-4f26-acdf-f829b3f3887f" />
+Penjelasan Output : Pada percobaan pertama dengan memasukkan ID 6101, program melakukan pencarian secara berurutan dari awal hingga akhir data dan menemukan ID tersebut sebanyak 1 kali. Karena nilai counter kurang dari 4, program memenuhi kondisi counter < 4 dan mencetak status "Jarang hadir". Pada percobaan kedua, pengguna memasukkan ID 6123. Setelah melakukan pencarian ulang, program menemukan ID tersebut sebanyak 5 kali. Karena jumlah kemunculannya lebih dari 4 kali, kondisi counter > 4 terpenuhi sehingga program mencetak status "Selalu hadir".  Secara keseluruhan, logika program ini berjalan dengan tepat sesuai kriteria yang telah ditentukan. kemunculan < 4 kali dikategorikan sebagai jarang hadir, sedangkan kemunculan > 4 kali dikategorikan sebagai selalu hadir.
+Link Youtube : 
