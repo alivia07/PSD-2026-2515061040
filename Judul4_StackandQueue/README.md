@@ -1,1 +1,2 @@
-
+# sistem management printer (Printer Spooling)
+Deskripsi : Sistem ini dirancang untuk mengelola urutan pencetakan dokumen menggunakan struktur data Queue dengan prinsip FIFO (First In First Out). Sistem bekerja dengan cara menampung setiap permintaan cetak yang masuk ke dalam antrean berdasarkan waktu kedatangannya, di mana dokumen yang pertama kali masuk akan diproses terlebih dahulu oleh mesin printer.
