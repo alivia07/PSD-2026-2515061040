@@ -88,4 +88,8 @@ Deskripsi : Sistem ini dirancang untuk mengelola urutan pencetakan dokumen mengg
   baris 88 :   
   baris 89 : memastikan fungsi main() berjalan jika file di eksekusi langsung  
   baris 90 : memanggil fungsi utama untuk memulai seluruh  
-  
+<img width="1920" height="2160" alt="_5857_Screenshot 36__7067_Screenshot 37" src="https://github.com/user-attachments/assets/560237e5-e74d-43ef-ba4e-d5aa99ba0e88" />
+<img width="1920" height="1080" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/5cc3995e-fba6-4001-9048-7543891cd373" />
+  Penjelasan Output : Pada gambar pertama, user secara bertahap memasukkan tiga dokumen melalui menu Enqueue yaitu "sempro", "revisi sempro", dan "semhas", yang kemudian tersusun berurutan dalam antrean memori sesuai waktu masuknya. Gambar kedua menunjukkan menu Display yang mengonfirmasi urutan dokumen dari depan ke belakang, serta menu Peek yang memverifikasi bahwa "sempro" berada di posisi terdepan sebagai dokumen pertama yang masuk. Pada gambar ketiga, pemilihan menu Dequeue memproses dokumen "sempro" secara otomatis karena prioritas FIFO, sebelum sistem spooler dihentikan melalui menu keluar  
+
+  link youtube :  
