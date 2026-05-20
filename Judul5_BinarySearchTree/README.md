@@ -62,10 +62,19 @@ Deskripsi : Sistem ini dirancang untuk mengelola antrean pasien di Unit Gawat Da
   Baris 76 :  
   Baris 77 : Mendeklarasikan fungsi pencarian pasien successor
   Baris 78 : Memanggil fungsi find_node untuk melacak dan mengambil objek node pasien acuan tersebut
-  Baris 79 :
-  Baris 80 :
-  Baris 81 : 
-  Baris 82 : 
+  Baris 79-80 : jika pasien dengan skor acuan tersebut ternyata tidak terdaftar atau tidak ditemukan di UGD, fungsi langsung berhenti.  
+  Baris 81-83 : Jika pasien target memiliki anak cabang di sebelah kanan, maka pasien yang setingkat lebih kritis pasti berada di sub-pohon sebelah kanan tersebut dan akan langsung mencari node yang nilainya paling kecil (paling kiri) di dalam cabang kanan. Mengembalikan objek node pasien pengganti yang ditemukan.  
+  Baris 84-85 : Jika pasien target tidak punya cabang kanan, sistem melacak dari atas pohon (root). dan menyimpannya ke variable current.  
+  Baris 86 :  Melakukan perulangan. 
+  Baris 87-88 : jika skor acuan dokter lebih kecil dari skor node yang sedang dilewati, berarti node saat ini berpotensi menjadi successor dan disimpan ke variable.  
+  Baris 89 : sistem akan menelusuri sebelah kiri dan mencari apakah ada pasien lain yang skornya lebih mendekati skor acuan.  
+  Baris 90-91 : Jika skor acuan ternyata lebih besar dari node yang dilewati, sistem langsung melangkah belok ke cabang sebelah kanan.  
+  Baris 92-93 : Jika menemukan node yang nilainya sama dengan skor acuan, langsung hentikan perulangan.  
+  Baris 94-95 : Jika setelah ditelusuri variabel successor tetap kosong (None), artinya pasien acuan tersebut adalah pasien dengan skor tertinggi di UGD.  
+  Baris 96 : Jika ada, fungsi sukses mengembalikan objek Node pasien successor.  
+  Baris 97 :  
+  Baris 98 : Mendeklarasikan fungsi pencarian pasien predecessor.  
+  Baris 99 : Memanggil fungsi find node untuk mencari letak objek node pasien acuan.  
+  Baris 100 : jika pasien dengan skor acuan tersebut tidak ditemukan di UGD, fungsi langsung berhenti.  
+  Baris 101 : 
   
-  Baris 73 : 
-  Baris 7
