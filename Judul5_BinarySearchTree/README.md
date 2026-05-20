@@ -110,3 +110,7 @@ Deskripsi : Sistem ini dirancang untuk mengelola antrean pasien di Unit Gawat Da
   Baris 176 :  
   Baris 177 : memastikan fungsi main() berjalan jika file di eksekusi langsung.  
   Baris 178 : memanggil fungsi utama untuk memulai seluruh.  
+<img width="1920" height="3240" alt="_2380_Screenshot 62__4364_Screenshot 63__2605_Screenshot 64" src="https://github.com/user-attachments/assets/50845280-3fab-4390-a33b-19f0e90fb065" />
+  Penjelasan Output : pada Menu 1 dimasukkan tiga pasien (Janice: 56, Theodore: 24, Kaitlyn: 98). Menu 2 menampilkan antrean dengan traversal level-order (urutan: Janice, Theodore, Kaitlyn). Menu 3 dan Menu 4 mensimulasikan pemanggilan dan penghapusan pasien secara otomatis menggunakan In-order Successor (mengganti dengan pasien yang lebih kritis) dan In-order Predecessor (mengganti dengan pasien yang lebih stabil), lalu program dihentikan lewat Menu 5.  
+
+  Link Youtube :  
