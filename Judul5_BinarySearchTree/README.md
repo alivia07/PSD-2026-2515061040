@@ -65,7 +65,7 @@ Deskripsi : Sistem ini dirancang untuk mengelola antrean pasien di Unit Gawat Da
   Baris 79-80 : jika pasien dengan skor acuan tersebut ternyata tidak terdaftar atau tidak ditemukan di UGD, fungsi langsung berhenti.  
   Baris 81-83 : Jika pasien target memiliki anak cabang di sebelah kanan, maka pasien yang setingkat lebih kritis pasti berada di sub-pohon sebelah kanan tersebut dan akan langsung mencari node yang nilainya paling kecil (paling kiri) di dalam cabang kanan. Mengembalikan objek node pasien pengganti yang ditemukan.  
   Baris 84-85 : Jika pasien target tidak punya cabang kanan, sistem melacak dari atas pohon (root). dan menyimpannya ke variable current.  
-  Baris 86 :  Melakukan perulangan. 
+  Baris 86 :  Melakukan perulangan.  
   Baris 87-88 : jika skor acuan dokter lebih kecil dari skor node yang sedang dilewati, berarti node saat ini berpotensi menjadi successor dan disimpan ke variable.  
   Baris 89 : sistem akan menelusuri sebelah kiri dan mencari apakah ada pasien lain yang skornya lebih mendekati skor acuan.  
   Baris 90-91 : Jika skor acuan ternyata lebih besar dari node yang dilewati, sistem langsung melangkah belok ke cabang sebelah kanan.  
@@ -75,6 +75,38 @@ Deskripsi : Sistem ini dirancang untuk mengelola antrean pasien di Unit Gawat Da
   Baris 97 :  
   Baris 98 : Mendeklarasikan fungsi pencarian pasien predecessor.  
   Baris 99 : Memanggil fungsi find node untuk mencari letak objek node pasien acuan.  
-  Baris 100 : jika pasien dengan skor acuan tersebut tidak ditemukan di UGD, fungsi langsung berhenti.  
-  Baris 101 : 
-  
+  Baris 100-101 : jika pasien dengan skor acuan tersebut tidak ditemukan di UGD, fungsi langsung berhenti.  
+  Baris 102 : Jika pasien target memiliki anak cabang di sebelah kiri, maka pasien yang setingkat lebih stabil pasti berada di dalam sub-pohon sebelah kiri.  
+  Baris 103 : Mengeset variabel jalan current.  
+  Baris 104-105 : elakukan perulangan untuk terus berjalan ke arah kanan sampai ujung.  
+  Baris 106 : Mengembalikan objek node pasien predecessor
+  Baris 107-108 : jika pasien target tidak punya cabang kiri, pelacakan dilakukan dari atas pohon (root) dan menyiapkan penunjuk jalan current = root.  
+  Baris 109 : Melakukan perulangan.  
+  Baris 110-112 : Jika skor acuan dokter nilainya lebih besar dari skor node yang sedang dilewati, berarti node saat ini berpotensi menjadi predecessor-nya. Simpan node ini ke variabel. sistem menelusuri sebelah kanan, mencari tahu apakah ada pasien lain yang nilainya jauh lebih mendekati skor acuan.  
+  Baris 113-114 : ika skor acuan ternyata lebih kecil dari node yang dilewati, sistem langsung pergi ke cabang sebelah kiri tanpa mengubah isi variabel.  
+  Baris 115-116 : Jika menemukan node yang nilainya sama persis dengan skor acuan, perulangan langsung dihentikan.  
+  Baris 117-118 : Jika setelah dicari variabel predecessor tetap kosong, artinya pasien acuan tersebut adalah pasien dengan kondisi paling ringan/skor paling rendah di UGD.  
+  Baris 119 : Jika ada, fungsi sukses mengembalikan objek Node pasien predecessor tersebut.  
+  Baris 120 :  
+  Baris 121-122 : Mendeklarasikan fungsi utama program. ugd = UGDSystemBST() berfungsi untuk membuat objek sistem antrean UGD baru yang masih kosong ke dalam variabel.  
+  Baris 123 : Menyiapkan variabel penampung pilihan menu user.
+  Baris 124 : Membuat program terus berulang.  
+  Baris 125-130 : perintah print untuk menampilkan secara visual daftar menu pilihan sistem UGD otomatis di layar.  
+  Baris 131-132 : Membuka blok pelindung error. Sistem meminta input angka menu dari user.  
+  Baris 134-135 : Jika user memasukkan huruf atau karakter selain angka program akan mencetak Input tidak valid dan langsung melompat mengulang ke awal menu utama menggunakan perintah continue. 
+  Baris 136-139 : jika user memilih menu 1, sistem meminta input nama pasien dan skor kekritisannya.  
+  Baris 140-141 : Memanggil fungsi insert untuk menaruh data pasien tersebut ke dalam pohon BST, lalu mencetak status sukses.
+  Baris 142-143 : try-except internal agar program tidak rusak jika user salah memasukkan tipe data dan menampilkan input tidak valid.  
+  Baris 144-146 : Jika user memilih menu 2, sistem akan memanggil fungsi cetak ugd level order dengan mengirimkan parameter ugd root sebagai pangkal pohon utama.  
+  Baris 147-149 : Jika memilih menu 3, dokter diminta memasukkan skor acuan pasien yang saat ini sedang ditangani.
+  Baris 150 : Memanggil fungsi pencarian successor.  
+  Baris 151-152 : jika data successor ditemukan, cetak nama dan skor pasien tersebut ke layar sebagai tanda panggilan.  
+  Baris 153-154 : Secara otomatis langsung menghapus data fisik pasien tersebut.  
+  Baris 155-158 : Menampilkan pesan gagal jika pasien tidak ditemukan, atau jika terjadi kesalahan input data.  
+  Baris 159-162 : memanggil fungsi ugd find predecessor untuk mencari pasien yang kondisinya setingkat lebih ringan/stabil dari skor acuan dokter.
+  Baris 163-170 : jika pasien predecessor ketemu, identitasnya akan dicetak, lalu dihapus langsung menggunakan ugd delete agar keluar dari antrean.  
+  Baris 171-173 : Jika user memilih angka 5, program akan mencetak teks penutup dan menghentikan perulangan secara paksa.  
+  Baris 174-175 : Menangani jika user memasukkan angka menu di luar rentang 1-5.  
+  Baris 176 :  
+  Baris 177 : 
+  Baris 178 : 
