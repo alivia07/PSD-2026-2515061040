@@ -1,7 +1,7 @@
 class Node: 
     def __init__(self, key, nama_pasien): 
-        self.key = key  # Skor tingkat kekritisan (1-100)
-        self.nama_pasien = nama_pasien  # Nama pasien
+        self.key = key 
+        self.nama_pasien = nama_pasien  
         self.left = None 
         self.right = None 
  
