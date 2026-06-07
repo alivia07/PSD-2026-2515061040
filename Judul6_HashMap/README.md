@@ -1,5 +1,7 @@
-# Sistem Pengarsipan Berkas Map Fisik pada Filing Cabinet
-Deskripsi : Sistem ini dirancang untuk mengelola dan mengarsipkan dokumen fisik klien secara terstruktur berdasarkan inisial nama menggunakan algoritma Hash Map dengan metode Separate Chaining. Sistem bekerja dengan cara memasukkan berkas baru ke dalam salah satu dari 10 laci abjad yang ditentukan langsung oleh fungsi hash melalui huruf pertama nama klien. Ketika terjadi tabrakan (collision) akibat adanya nama dengan inisial yang sama, sistem akan menangani kendala tersebut dengan menyusun berkas-berkas itu berjejer ke belakang di dalam laci yang sama membentuk struktur antrean berantai (linked list).
+# Sistem Pencaharian Arsip Berkas Map Fisik pada Filing Cabinet
+Deskripsi : Sistem ini dirancang untuk mengelola dan mencari dokumen arsip fisik klien secara terstruktur berdasarkan inisial nama menggunakan algoritma Hash Map dengan metode Separate Chaining. Sistem bekerja dengan cara memasukkan berkas baru ke dalam salah satu dari 10 laci yang ditentukan langsung oleh fungsi hash. Ketika terjadi tabrakan (collision) akibat adanya nama ID yang sama, sistem akan menangani kendala tersebut dengan menyusun berkas-berkas itu berjejer ke belakang di dalam laci yang sama membentuk struktur antrean berantai (linked list).
+<img width="1920" height="3240" alt="_7558_Screenshot 140__9740_Screenshot 141__8682_Screenshot 142" src="https://github.com/user-attachments/assets/65d98e78-8ec1-4a4b-bfd1-4de27c33a030" />
+
   Baris 1: Mendefinisikan sebuah kelas bernama Node untuk membuat objek  
   Baris 2: Fungsi def untuk membuat node baru yang menerima 3 parameter  
   Baris 3: Menyimpan ID unik klien ke dalam properti key milik node.  
@@ -63,5 +65,9 @@ Deskripsi : Sistem ini dirancang untuk mengelola dan mengarsipkan dokumen fisik 
   Baris 80: Jika ketemu, cetak ID beserta isi nama berkasnya.  
   Baris 81: Kondisi jika data hasil pencarian kosong.  
   Baris 82: Cetak informasi bahwa data ID tersebut tidak ditemukan di sistem.  
-  Baris 80: Sintaks standar Python untuk mendeteksi bahwa file ini dijalankan secara langsung.  
-  Baris 81: Memanggil dan menjalankan fungsi main().  
+  Baris 84: memastikan fungsi main() berjalan jika file di eksekusi langsung.  
+  Baris 85: memanggil fungsi utama untuk memulai seluruh.  
+  <img width="1920" height="1080" alt="Screenshot (143)" src="https://github.com/user-attachments/assets/c0675005-3e30-49da-a633-28f27376c363" />
+  Penjelasan Output : Sistem Filing Cabinet ini mengelola berkas secara otomatis ke dalam 10 laci menggunakan fungsi hash berbasis rumus modulo 10, di mana digit terakhir dari ID unik klien langsung menentukan nomor lacinya. Ketika beberapa berkas memiliki digit terakhir ID yang sama seperti ID 25 (Berkas Ningning) dan ID 5 (Berkas Jaka) yang sama-sama memicu indeks laci Ke-5—sistem menerapkan metode Separate Chaining dengan menyusun berkas-berkas tersebut berjejer ke belakang membentuk antrean berantai. Saat pengguna melakukan pencarian dengan memasukkan ID 25, sistem secara langsung mencari laci Ke-5 tanpa memeriksa laci lain, kemudian menelusuri dari urutan terdepan hingga berhasil menemukan dan menampilkan nama berkas.
+
+  Link Youtube : 
