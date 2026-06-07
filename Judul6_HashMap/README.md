@@ -1,1 +1,2 @@
-
+# Sistem Pengarsipan Berkas Map Fisik pada Filing Cabinet
+Deskripsi : Sistem ini dirancang untuk mengelola dan mengarsipkan dokumen fisik klien secara terstruktur berdasarkan inisial nama menggunakan algoritma Hash Map dengan metode Separate Chaining. Sistem bekerja dengan cara memasukkan berkas baru ke dalam salah satu dari 10 laci abjad yang ditentukan langsung oleh fungsi hash melalui huruf pertama nama klien. Ketika terjadi tabrakan (collision) akibat adanya nama dengan inisial yang sama, sistem akan menangani kendala tersebut dengan menyusun berkas-berkas itu berjejer ke belakang di dalam laci yang sama membentuk struktur antrean berantai (linked list).
