@@ -70,4 +70,4 @@ Deskripsi : Sistem ini dirancang untuk mengelola dan mencari dokumen arsip fisik
   <img width="1920" height="1080" alt="Screenshot (143)" src="https://github.com/user-attachments/assets/c0675005-3e30-49da-a633-28f27376c363" />
   Penjelasan Output : Sistem Filing Cabinet ini mengelola berkas secara otomatis ke dalam 10 laci menggunakan fungsi hash berbasis rumus modulo 10, di mana digit terakhir dari ID unik klien langsung menentukan nomor lacinya. Ketika beberapa berkas memiliki digit terakhir ID yang sama seperti ID 25 (Berkas Ningning) dan ID 5 (Berkas Jaka) yang sama-sama memicu indeks laci Ke-5—sistem menerapkan metode Separate Chaining dengan menyusun berkas-berkas tersebut berjejer ke belakang membentuk antrean berantai. Saat pengguna melakukan pencarian dengan memasukkan ID 25, sistem secara langsung mencari laci Ke-5 tanpa memeriksa laci lain, kemudian menelusuri dari urutan terdepan hingga berhasil menemukan dan menampilkan nama berkas.
 
-  Link Youtube : 
+  Link Youtube : https://youtu.be/LWAkrxQod6Q  
